@@ -1,4 +1,4 @@
 #theme: jekyll-theme-minimal
-remote_theme: mmistakes/skinny-bones-jekyll
+remote_theme: jekyll/minima
 
 title: "Jacob Pettit"
