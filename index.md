@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Jacob Pettit
 
 You can use the [editor on GitHub](https://github.com/jfpettit/jfpettit.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
