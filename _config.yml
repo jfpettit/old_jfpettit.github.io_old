@@ -1,9 +1,7 @@
 theme: jekyll-theme-minimal
 #remote_theme: joshgerdes/jekyll-uno
 
-title: "Jacob Pettit"
-description: "My resume type page. I also [blog](https://jfpettit.svbtle.com/).
-    - [Github](https://github.com/jfpettit)
-    - [Twitter](https://twitter.com/jacobpettit18)"
-logo: "GPTempDownload-1.JPG"
+title: Jacob Pettit
+description: My resume type page. I also [blog](https://jfpettit.svbtle.com/).
+logo: GPTempDownload-1.JPG
 
