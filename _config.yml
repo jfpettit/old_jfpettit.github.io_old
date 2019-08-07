@@ -2,3 +2,6 @@
 remote_theme: heiswayi/the-plain
 
 title: "Jacob Pettit"
+
+exclude:
+  index.md
