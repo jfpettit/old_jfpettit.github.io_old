@@ -2,7 +2,7 @@
 
 ## Current work
 
-I recently finished reading Sutton and Barto's "Reinforcement Learning: An Introduction", and I wrote from-scratch implementations of algorithms I found most interesting. Read the book [here.](http://incompleteideas.net/book/the-book.html) Now, I'm working on Applied Machine Learning at Lawrence Livermore National Laboratory.
+I'm currently working on Applied Machine Learning at Lawrence Livermore National Laboratory.
 
 ## Hopeful future work
 
@@ -20,7 +20,7 @@ After reading OpenAI's [Requests for Research 2.0](https://openai.com/blog/reque
 
 ### Senior Practicum in Reinforcement Learning
 
-To complete the Bachelor of Science degree in Computational Science at FSU, each senior has to complete a semester-long senior project. I spent my project investigating the fundamentals of Reinforcement Learning and familiarizing myself with them. I wrote implementations of a few different algorithms from scratch as part of this work, and my final product for the semester was a paper, linked [here](https://github.com/jfpettit/senior-practicum/blob/master/PracticumPaper.pdf). You can view all of my (unedited and messy) code from the project at [this repository](https://github.com/jfpettit/senior-practicum).
+To complete the Bachelor of Science degree in Computational Science at FSU, each senior has to complete a semester-long senior project. I spent my project investigating the fundamentals of Reinforcement Learning and familiarizing myself with them. My guide for the project was Sutton and Barto's ["Reinforcement Learning: An Introduction"](http://incompleteideas.net/book/the-book.html). I wrote implementations of a few different algorithms from scratch as part of this work, and my final product for the semester was a paper, linked [here](https://github.com/jfpettit/senior-practicum/blob/master/PracticumPaper.pdf). You can view all of my (unedited and messy) code from the project at [this repository](https://github.com/jfpettit/senior-practicum).
 
 #### Dynamic Programming Policy Iteration in Gridworld
 
