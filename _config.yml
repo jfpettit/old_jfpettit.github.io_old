@@ -1,7 +1,4 @@
 #theme: jekyll-theme-minimal
-remote_theme: heiswayi/the-plain
+remote_theme: neilsenramon/chalk
 
 title: "Jacob Pettit"
-
-exclude:
-  index.md
