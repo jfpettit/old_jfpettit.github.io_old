@@ -2,7 +2,7 @@
 
 ## Current work
 
-I recently finished reading Sutton and Barto's "Reinforcement Learning: An Introduction", and I wrote from-scratch implementations of algorithms I find most interesting. Read the book [here.](http://incompleteideas.net/book/the-book.html) Now, I'm working on Applied Machine Learning at Lawrence Livermore National Laboratory.
+I recently finished reading Sutton and Barto's "Reinforcement Learning: An Introduction", and I wrote from-scratch implementations of algorithms I found most interesting. Read the book [here.](http://incompleteideas.net/book/the-book.html) Now, I'm working on Applied Machine Learning at Lawrence Livermore National Laboratory.
 
 ## Hopeful future work
 
