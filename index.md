@@ -1,4 +1,3 @@
-# Jacob Pettit
 
 ## About me
 
