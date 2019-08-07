@@ -14,6 +14,10 @@ I can be reached via [email](mailto: jfpettit@gmail.com) or you can find me on [
 
 ## Projects
 
+### gym-snake-rl
+
+After reading OpenAI's [Requests for Research 2.0](https://openai.com/blog/requests-for-research-2/), I got inspired and wanted to contribute however I could. I was already interested in working on generalization and knowledge transfer in RL, so naturally I was curious about doing experiments in this area, and I wanted to be able to do some on my laptop. I quickly realized that there weren't really any environments with randomly generated maps that were also computationally inexpensive, so I thought I could try to help fill this gap. Read my blog post about this project [here](https://jfpettit.svbtle.com/introducing-gym-snake-rl).
+
 ### Senior Practicum in Reinforcement Learning
 
 To complete the Bachelor of Science degree in Computational Science at FSU, each senior has to complete a semester-long senior project. I spent my project investigating the fundamentals of Reinforcement Learning and familiarizing myself with them. I wrote implementations of a few different algorithms from scratch as part of this work, and my final product for the semester was a paper, linked [here](https://github.com/jfpettit/senior-practicum/blob/master/PracticumPaper.pdf). You can view all of my (unedited and messy) code from the project at [this repository](https://github.com/jfpettit/senior-practicum).
