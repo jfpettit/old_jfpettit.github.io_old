@@ -1,4 +1,4 @@
-#theme: jekyll-theme-minimal
-remote_theme: joshgerdes/jekyll-uno
+theme: jekyll-theme-cayman
+#remote_theme: joshgerdes/jekyll-uno
 
 title: "Jacob Pettit"
