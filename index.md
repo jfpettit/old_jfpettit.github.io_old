@@ -8,7 +8,7 @@ I'm curious about improving generalization in reinforcement learning(RL), workin
 
 ## Contact Me
 
-I can be reached via [email:](mailto: jfpettit@gmail.com) or you can find me on [twitter](https://twitter.com/jacobpettit18).
+I can be reached via [email](mailto: jfpettit@gmail.com) or you can find me on [twitter](https://twitter.com/jacobpettit18).
 
 ## Projects
 
