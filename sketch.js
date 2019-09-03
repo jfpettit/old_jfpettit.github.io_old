@@ -1,7 +1,7 @@
 let flock;
 
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, displayHeight);
   //createCanvas(displayWidth, displayHeight);
   flock = new Flock();
   // Add an initial set of boids into the system
@@ -25,8 +25,8 @@ function mousePressed() {
 }
 
 function windowResized() {
-  resizeCanvas(displayWidth, displayHeight);
-  canvas.position(displayWidth, displayHeight);
+  resizeCanvas(windowWidth, displayHeight);
+  canvas.position(windowWidth, displayHeight);
 }
 
 // The Nature of Code
