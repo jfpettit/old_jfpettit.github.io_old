@@ -24,6 +24,12 @@ function mousePressed() {
   }
 }
 
+function touchMoved() {
+  for (let i = 0; i < 10; i++){
+  flock.addBoid(new Boid(mouseX, mouseY));
+  }
+}
+
 function windowResized() {
   resizeCanvas(windowWidth, displayHeight);
   //canvas.position(windowWidth, displayHeight);
