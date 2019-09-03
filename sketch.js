@@ -26,7 +26,7 @@ function mousePressed() {
 
 function windowResized() {
   resizeCanvas(windowWidth, displayHeight);
-  canvas.position(windowWidth, displayHeight);
+  //canvas.position(windowWidth, displayHeight);
 }
 
 // The Nature of Code
