@@ -12,7 +12,6 @@ body   {
   font-size: 16px;
   min-height: 100%;
   max-width: 100%;*/
-  font-size: 16px;
   font-family : monospace;
   color : white;
 }
@@ -24,6 +23,23 @@ header {
     /*width: auto;
   	min-height: 100%;
     max-width: 100%;*/
+}
+
+:root {
+    @media only screen and (max-width: 400px) {
+        & { font-size: 10px;
+            --img-size: 120px; }
+    }
+
+    @media only screen and (max-width: 700px) {
+        & { font-size: 13px;
+            --img-size: 160px; }
+    }
+
+    font-size: 16px;
+    font-family: monospace;
+    box-sizing: border-box;
+    --imgsize: 240px;
 }
 
 #logo         {
@@ -105,7 +121,7 @@ a {
 
 .about-me img {
 	margin-bottom: 12px;
-	width: 240px;
+	width: var(--imgsize);
 }
 
 .contact-me {
