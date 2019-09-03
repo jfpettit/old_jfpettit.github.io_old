@@ -24,7 +24,7 @@ function mousePressed() {
   }
 }
 
-function touchMoved() {
+function touchStarted() {
   for (let i = 0; i < 10; i++){
   flock.addBoid(new Boid(mouseX, mouseY));
   }
