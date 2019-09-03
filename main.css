@@ -32,12 +32,13 @@ header {
   width: 49%;
   font-family : monospace;
 }
+/*
 #logo img    {
   width: 50px;
   border-radius: 3px;
   margin-right: 8px;
   vertical-align: middle;
-}
+}*/
 #logo span   {
   display: inline-block;
 }
@@ -75,6 +76,7 @@ footer   {
   text-align: center;
   max-width: 100%;
 }
+
 footer img   {
   display: block;
   border-radius: 5px;
