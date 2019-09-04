@@ -1,7 +1,7 @@
 let flock;
 
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, displayHeight);
   //createCanvas(displayWidth, displayHeight);
   flock = new Flock();
   // Add an initial set of boids into the system

@@ -1,31 +1,31 @@
-/*     {
+  *  {
   box-sizing: border-box;
-  margin : 0;
-  padding: 0;
-}*/
+}
 
 html,
 body   {
-  /*margin: 0 auto;
+  margin: 0;
   padding: 0;
-  line-height: 1.5;
+  /*line-height: 1.5;
   font-size: 16px;
   max-width: 100%;*/
   font-family : monospace;
   color : white;
-  min-height: 100%;
+  height: 100%;
   font-size: 100%;
+  padding-bottom: 60px;
 }
 
 header {
     background:#708090;
-    padding: 20px 30px;
+    padding: 1rem;
     color: #FFF;
+    font-size: 1rem;
     /*width: auto;
 	min-height: 100%;
     max-width: 100%;*/
 }
-
+/*
 #logo         {
   display: inline-block;
   color: #FFF;
@@ -33,21 +33,21 @@ header {
   width: 49%;
   font-family : monospace;
 }
-/*
+
 #logo img    {
   width: 50px;
   border-radius: 3px;
   margin-right: 8px;
   vertical-align: middle;
-}*/
+}
 #logo span   {
   display: inline-block;
-}
+}*/
 
 nav {
 	width: 50%;
 	display: inline-block;
-	text-align: right;
+	text-align: left;
 }
 
 nav ul   {
@@ -73,9 +73,9 @@ nav ul li a:hover   {
 footer   {
   background: #708090;
   color: #708090;
-  padding: 40px;
+  padding: 2rem;
   text-align: center;
-  max-width: 100%;
+  font-size: 1rem;
 }
 
 footer img   {
@@ -107,7 +107,7 @@ a {
 
 .about-me img {
 	margin-bottom: 12px;
-	width: 240px;
+	width: 220px;
 }
 
 .contact-me {
@@ -139,3 +139,12 @@ canvas {
 @media (min-width: 640px) { body {font-size:1rem;} } 
 @media (min-width:960px) { body {font-size:1.2rem;} } 
 @media (min-width:1100px) { body {font-size:1.5rem;} }
+
+#page-container {
+  position: relative;
+  min-height: 100%;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
