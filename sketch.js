@@ -137,7 +137,7 @@ Boid.prototype.render = function() {
   let theta = this.velocity.heading() + radians(90);
   //fill(color("#4809A6"));
   //fill(color("#708090"));
-  fill(color("#FF5733"))
+  fill(color("#581845"))
   stroke(200);
   push();
   translate(this.position.x, this.position.y);

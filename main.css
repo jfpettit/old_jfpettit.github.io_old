@@ -54,10 +54,10 @@ nav {
   left: 0;
   background-color: #000000;
   overflow-x: hidden;
-  padding-top: 0vh;
+  padding-top: 0px;
   font-size: 3vh;
   text-align: left;
-  padding-left: 0vh;
+  padding-left: 0px;
   overflow-x: hidden;
 }
 
