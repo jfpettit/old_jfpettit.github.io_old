@@ -55,7 +55,7 @@ nav {
   background-color: #000000;
   overflow-x: hidden;
   padding-top: 2vh;
-  font-size: 1rem;
+  font-size: 3vh;
   text-align: left;
   padding-left: 0;
 }
@@ -71,8 +71,8 @@ nav ul li a    {
 	/*color: #FFF;*/
 	text-decoration: none;
 	display: block;
-	padding: 1vh 3vh;
-	border-radius: 2vh;
+	padding: 1vh 2vh;
+	border-radius: 1vh;
 	transition: 0.3s ease all;
   color: white;
 }
@@ -149,10 +149,10 @@ canvas {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
-@media (min-width: 350px) {body {font-size: 0.75rem;} .about-me img {width : 0px;} }
-@media (min-width: 640px) { body {font-size:1rem;} .about-me img {width: 160px;}} 
-@media (min-width:960px) { body {font-size:1.2rem;} .about-me img {width: 200px;}} 
-@media (min-width:1100px) { body {font-size:1.5rem;} .about-me img {width: 35vh;}}
+@media (min-width: 350px) {body {font-size: 0.75rem;} .about-me img {width : 0px;} nav {height: 8vh; width: 100vh;}}
+@media (min-width: 640px) { body {font-size:1rem;} .about-me img {width: 160px;} nav {height: 100vh; width: 15vh;}} 
+@media (min-width:960px) { body {font-size:1.2rem;} .about-me img {width: 200px;} nav {height: 100vh; width: 15vh;}} 
+@media (min-width:1100px) { body {font-size:1.5rem;} .about-me img {width: 35vh;} nav {height: 100vh; width: 15vh;}}
 
 #page-container {
   position: relative;
