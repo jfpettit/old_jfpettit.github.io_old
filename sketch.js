@@ -1,7 +1,7 @@
 let flock;
 
 function setup() {
-  let canvas = createCanvas(windowWidth, windowHeight);
+  let canvas = createCanvas(windowWidth, displayHeight);
   //let canvas = createCanvas(wideness, longness);
   canvas.parent("page-container")
   //var container = getElementById('page-container')
@@ -39,7 +39,7 @@ function windowResized() {
   var container = getElementById('page-container')
   wideness = container.offsetWidth;
   longness = container.offsetLength;
-  resizeCanvas(wideness, longness)
+  resizeCanvas(windowWidth, displayHeight)
   //canvas.position(windowWidth, displayHeight);
 }
 
