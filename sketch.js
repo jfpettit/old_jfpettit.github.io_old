@@ -1,8 +1,12 @@
 let flock;
 
 function setup() {
-  createCanvas(windowWidth, displayHeight);
-  //createCanvas(displayWidth, displayHeight);
+  let canvas = createCanvas(windowWidth, windowHeight);
+  //let canvas = createCanvas(wideness, longness);
+  canvas.parent("page-container")
+  //var container = getElementById('page-container')
+  //wideness = container.offsetWidth;
+  //longness = container.offsetLength;
   flock = new Flock();
   // Add an initial set of boids into the system
   for (let i = 0; i < 100; i++) {
@@ -31,7 +35,11 @@ function touchStarted() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, displayHeight);
+  //resizeCanvas(windowWidth, displayHeight);
+  var container = getElementById('page-container')
+  wideness = container.offsetWidth;
+  longness = container.offsetLength;
+  resizeCanvas(wideness, longness)
   //canvas.position(windowWidth, displayHeight);
 }
 
