@@ -39,7 +39,7 @@ function windowResized() {
   var container = getElementById('page-container')
   wideness = container.offsetWidth;
   longness = container.offsetLength;
-  resizeCanvas(windowWidth, windowHeight)
+  resizeCanvas(windowWidth, displayHeight)
   //canvas.position(windowWidth, displayHeight);
 }
 

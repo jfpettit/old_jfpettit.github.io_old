@@ -46,8 +46,8 @@ nav {
 	/*width: 200px;
 	display: inline-block;
 	text-align: left;*/
-  height: 15vh;
-  width: 100vh;
+  height: 100vh;
+  width: 15vh;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -55,7 +55,7 @@ nav {
   background-color: #000000;
   overflow-x: hidden;
   padding-top: 0px;
-  font-size: 3vh;
+  font-size: 1rem;
   text-align: left;
   padding-left: 0px;
   overflow-x: hidden;
@@ -153,23 +153,23 @@ canvas {
 @media (min-width: 350px) {
   body {font-size: 0.75rem;} 
   .about-me img {width : 0px;} 
-  nav {height: 5vh; width: 100vh; font-size: 1rem; padding-top: 0vh;}
+  nav {height: 5vh; width: 100vh; font-size: 1rem; padding-top: 0px;}
   }
 
 @media (min-width: 640px) { 
   body {font-size:1rem;} 
   .about-me img {width: 160px;} 
-  nav {height: 100vh; width: 15vh; font-size: 1rem; padding-top: 0vh;}} 
+  nav {height: 100vh; width: 15vh; font-size: 1rem; padding-top: 0px;}} 
 
 @media (min-width:960px) { 
   body {font-size:1.2rem;} 
   .about-me img {width: 200px;} 
-  nav {height: 100vh; width: 15vh; font-size: 3vh; padding-top: 0vh;}} 
+  nav {height: 100vh; width: 15vh; font-size: 1.5rem; padding-top: 0px;}} 
 
 @media (min-width:1100px) { 
   body {font-size:1.5rem;} 
   .about-me img {width: 35vh;} 
-  nav {height: 100vh; width: 15vh; font-size: 3vh; padding-top: 0vh;}}
+  nav {height: 100vh; width: 15vh; font-size: 1.5rem; padding-top: 0px;}}
 
 #page-container {
   position: relative;
@@ -177,5 +177,5 @@ canvas {
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+  padding-bottom: 0rem;    /* Footer height */
 }
