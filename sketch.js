@@ -16,7 +16,7 @@ function setup() {
 }
 
 function draw() {
-  background(100);
+  background(200);
   flock.run();
 }
 
@@ -135,8 +135,9 @@ Boid.prototype.seek = function(target) {
 Boid.prototype.render = function() {
   // Draw a triangle rotated in the direction of velocity
   let theta = this.velocity.heading() + radians(90);
-  /*fill(color("#4809A6"));*/
-  fill(color("#708090"));
+  //fill(color("#4809A6"));
+  //fill(color("#708090"));
+  fill(color("#244"))
   stroke(200);
   push();
   translate(this.position.x, this.position.y);
