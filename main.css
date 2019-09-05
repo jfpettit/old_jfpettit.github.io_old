@@ -55,6 +55,7 @@ nav {
   overflow-x: hidden;
   padding-top: 20px;
   font-size: 1rem;
+  text-align: left;
 }
 
 /*nav ul   {
@@ -145,7 +146,7 @@ canvas {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
-@media (min-width: 350px) {body {font-size: 0.75rem;} .about-me img {width : 80px;} }
+@media (min-width: 350px) {body {font-size: 0.75rem;} .about-me img {width : 0px;} }
 @media (min-width: 640px) { body {font-size:1rem;} .about-me img {width: 160px;}} 
 @media (min-width:960px) { body {font-size:1.2rem;} .about-me img {width: 200px;}} 
 @media (min-width:1100px) { body {font-size:1.5rem;} .about-me img {width: 220px;}}
