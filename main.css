@@ -2,15 +2,23 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'OpenAIfont';
+  src: url('https://openai.com/assets/styles/fonts/ColfaxAI-Regular.woff2');
+}
+
 html,
 body   {
   margin: 0;
-  font-family : monospace;
+  font-family : Courier;
   color : black;
   height: 100%;
   font-size: 1rem;
-  background: 200;
+  /*background: #FFF*/;
+  /*background: #F0F8FF;*/
+  background: #F8F8FF;
 }
+
 
 nav {
   height: 100vh;
@@ -43,14 +51,15 @@ nav ul li a    {
 	padding: 1vh 2vh;
 	border-radius: 1vh;
 	transition: 0.3s ease all;
-  color: white;
+  color: #F0F8FF;
 }
 nav ul li a:hover   {
 	background: #444;
 }
 
 ul {
-	font-family : monospace;
+	font-family : Courier;
+  color: #F0F8FF;
 }
 
 a {
@@ -116,7 +125,7 @@ a {
 
 @media (min-width: 640px) { 
   body {font-size:1rem;} 
-  .about-me img {width: 160px;} 
+  .about-me img {width: 160px; padding-top: 0px} 
   nav {height: 100vh; width: 15%; font-size: .8rem; }
   .about-me{
   margin-left: 100px;
