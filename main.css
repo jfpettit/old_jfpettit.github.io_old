@@ -55,6 +55,13 @@ a {
 	color : black;
 }
 
+.my-projects {
+  text-align: left;
+  padding-top:30px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
 .about-me {
 	text-align: center;
 	padding-top:30px;

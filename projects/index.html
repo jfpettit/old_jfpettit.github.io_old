@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width">
+    <title>Jacob Pettit's Homepage</title>
+    <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="../main.css">
+    <!--<script src="p5.js"></script>
+    <script src="p5.dom.js"></script>
+    <script src="p5.sound.js"></script>
+    <script src="sketch.js"></script>-->
+    <style> body{padding:0; margin:0} </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+  </head>
+  <body>
+    <div id="page-container">
+      <div id="content-wrap">
+
+      <!-- our main logo
+        <a id="logo" href="index.html">
+            <img src="src/IMG_6556 copy.png" alt="Logo">
+            <span>Jacob Pettit</span>
+        </a>-->
+
+      <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="index.html">Projects</a></li>
+                <li><a href="https://jfpettit.svbtle.com">Blog</a></li>
+                <li><a href="https://github.com/jfpettit">GitHub</a></li>
+            </ul>
+        </nav>
+      <main>
+        <div class='projects'>
+          <h2 style='font-weight : bold;', align='left', class='my-projects'>Projects:</h2>
+          <div class='my-projects'>
+            <h4 style='font-weight: bold;', class='projects'><a href='https://github.com/jfpettit/rl-pack'>rlpack:</a></h4>
+            <p>I developed my own reinforcement learning framework with goals of sipmlicity, ease of understanding, and beginner friendliness. So far, I've implemented a couple of algorithms and in the future will extend the framework to include more. My blog post on rlpack is <a href='https://jfpettit.svbtle.com/rlpack'>here</a> and the GitHub repository for rlpack is <a href='https://github.com/jfpettit/rl-pack'>here</a>.
+            </br></br></p>
+
+            <h4 style='font-weight: bold;', class='projects'><a href='https://github.com/jfpettit/gym-snake-rl'>gym-snake-rl:</a></h4>
+            <p> When reading OpenAI's <a href='https://openai.com/blog/requests-for-research-2/'>Requests for Research 2.0</a>, I got inspired by the point suggesting that people work on a multi-agent version of the classic <a href='https://www.coolmathgames.com/0-snake'>Snake game</a> and had already been interested in working on generalization in reinforcement learning. I created a custom OpenAI <a href='https://gym.openai.com/'>Gym</a> environment to try and tackle both of those things. An in-depth blog post about the environment is <a href='https://jfpettit.svbtle.com/introducing-gym-snake-rl'>here</a> and the code is on <a href='https://github.com/jfpettit/gym-snake-rl'>GitHub</a>.</br></br></p>
+
+            <h4 style='font-weight: bold;', class='projects'><a href='https://github.com/jfpettit/senior-practicum'>Senior Practicum in RL:</a></h4>
+            <p> To complete the Bachelor of Science degree in Computational Science at FSU, each senior has to complete a semester-long senior project. I spent my project investigating the fundamentals of Reinforcement Learning and familiarizing myself with them. I wrote implementations of a few different algorithms from scratch as part of this work, and my final product for the semester was a paper, linked <a href='https://github.com/jfpettit/jfpettit.github.io/blob/master/PracticumPaper.pdf'>here</a>. </br></br></p>
+
+            <h4 style='font-weight: bold;', class='projects'><a href='https://github.com/jfpettit/reinforcement-learning#policy-iteration-with-dynamic-programming-to-solve-gridworld'>Dynamic Programming Policy Iteration in Gridworld:</a></h4>
+            <p>I wrote this code as a part of my senior research project in reinforcement learning. Chapter 4 of "Reinforcement Learning: An Introduction" discusses dynamic programming and using it to perform policy iteration on gridworld. Credit for the gridworld environment goes to <a href='https://github.com/dennybritz/reinforcement-learning/blob/master/lib/envs/gridworld.py'>Denny Britz</a>. Gridworld is a simple N by N grid environment where the agent is randomly initialized on a square and must navigate to a terminal square. The reward for every step the agent takes in trying to reach the terminal state is -1, so the agent is incentivized to terminate as quickly as possible. The code I wrote performs policy iteration and outputs estimates of an optimal policy and value function. It also has a code cell that'll render an agent moving through gridworld. My code is <a href='https://github.com/jfpettit/reinforcement-learning#policy-iteration-with-dynamic-programming-to-solve-gridworld'>here</a>.</br></br></p>
+
+            <h4 style='font-weight: bold;', class='projects'><a href='https://github.com/jfpettit/senior-practicum'>tic-tac-toe agent:</a></h4>
+            <p> This code was written as part of my senior research project on reinforcement learning. In section 5 in Chapter 1 of Sutton and Barto's <a href='http://incompleteideas.net/book/the-book.html'>"Reinforcement Learning: An Introduction"</a>, they discuss creating a temporal difference agent for tic-tac-toe playing. My code is based largely off of that example. You can find my code <a href='https://github.com/jfpettit/senior-practicum'>here</a>. See how to easily play against it yourself <a href='https://jfpettit.svbtle.com/making-it-easier-to-play-my-tic-tac-toe-agent'>here</a>.</br></br></p>
+
+            <h4 style='font-weight: bold;', class='projects'><a href='https://github.com/jfpettit/machine-learning/tree/master/hidden-markov-model'>Hidden Markov Model:</a></h4>
+            <p> In the Applied Machine Learning class at FSU, one assignment was to implement a Hidden Markov Model and use it to solve a given problem. When developing this code, one of my goals was for it to be flexible, so that it could be used for many problems. <a href='https://github.com/NateAnthonyLeonard'>Nathaniel Leonard</a> also contributed. Our code is <a href='https://github.com/jfpettit/machine-learning/tree/master/hidden-markov-model'>here</a>.</br></br></p>
+
+            <h4 style='font-weight: bold;', class='projects'><a href='https://github.com/jfpettit/machine-learning/tree/master/multiclass-logreg'>Multiclass Logistic Regression with FSA:</a></h4>
+            <p> </br> <a href='https://arxiv.org/abs/1310.2880'>FSA (Feature Selection with Annealing) paper.</a>
+            </br> </br> This was also an assignment in the Applied Machine Learning course. Again, I strove for enough flexibility that the code can be used generally. This is a multiclass logistic regression that also makes use of Feature Selection with Annealing to reduce the number of model parameters throughout training. I've linked to the Feature Selection with Annealing paper above.  <a href='https://github.com/NateAnthonyLeonard'>Nathaniel Leonard</a> and I worked together. The code for this project is <a href='https://github.com/jfpettit/machine-learning/tree/master/multiclass-logreg'>here</a>.</br></br></p>
+          </div>
+        </div>
+      </main>
+    </div>
+      <!-- the footer -->
+    <!--<footer>
+      <a id="footer" href="index.html">
+        <img src="src/IMG_6556 copy.png" alt="Footer Logo">
+        <span>Jacob Pettit</span>
+      </a>
+    </footer>-->
+  </div>
+  </body>
+</html>
