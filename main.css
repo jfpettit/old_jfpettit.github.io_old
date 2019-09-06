@@ -88,8 +88,8 @@ a {
 
 @media (min-width: 350px) {
   body {font-size: 0.75rem;} 
-  .about-me img {width : 0px; } 
-  nav {height: 10%; width: 100vh; font-size: 1rem; }
+  .about-me img {width : 80px; padding-top: 80px} 
+  nav {height: 10%; width: 100vh; font-size: .8rem; }
   .about-me {
     margin-left: 30px;
     margin-right: 30px;
@@ -103,10 +103,10 @@ a {
 @media (min-width: 640px) { 
   body {font-size:1rem;} 
   .about-me img {width: 160px;} 
-  nav {height: 100vh; width: 10%; font-size: .8rem; }
+  nav {height: 100vh; width: 12%; font-size: .8rem; }
   .about-me{
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
   }
   .contact-me {
     margin-right: 150px;
