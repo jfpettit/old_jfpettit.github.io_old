@@ -108,7 +108,6 @@ a {
   .my-projects {
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 50px;
   }
 }
 
@@ -127,7 +126,6 @@ a {
   .my-projects {
     margin-left: 160px;
     margin-right: 150px;
-    margin-top: 0px;
 } 
 
 @media (min-width:960px) { 
