@@ -144,7 +144,7 @@ a {
 @media (min-width:960px) { 
   body {font-size:1.2rem;} 
   .about-me img {width: 200px;} 
-  nav {height: 100vh; width: 12%; font-size: .8rem; }
+  nav {height: 100vh; width: 15%; font-size: .8rem; }
   .about-me{
   margin-left: 150px;
   margin-right: 150px;
@@ -175,4 +175,3 @@ a {
   position: relative;
   min-height: 100%;
 }
-
