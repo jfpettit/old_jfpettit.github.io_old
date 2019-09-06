@@ -3,14 +3,17 @@
 }
 
 @font-face {
-  font-family: 'OpenAIfont';
-  src: url('https://openai.com/assets/styles/fonts/ColfaxAI-Regular.woff2');
-}
+  font-family: 'Avenir Next';
+  src: url("avenir/AvenirNextLTPro-Regular.otf"); /* File to be stored at your site */
+  font-family: 'Avenir Bold';
+  src: url("avenir/AvenirNextLTPro-Bold.otf");
+  }
 
 html,
 body   {
   margin: 0;
-  font-family : Courier;
+  /*font-family : 'Futura';*/
+  font-family: 'Avenir Next';
   color : black;
   height: 100%;
   font-size: 1rem;
@@ -58,7 +61,7 @@ nav ul li a:hover   {
 }
 
 ul {
-	font-family : Courier;
+	font-family : 'Avenir Bold';
   color: #F0F8FF;
 }
 
