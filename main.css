@@ -11,7 +11,7 @@ body   {
   font-family : monospace;
   color : black;
   height: 100%;
-  font-size: 100%;
+  font-size: 1rem;
   background: 200;
 }
 
@@ -47,7 +47,7 @@ nav {
 	display: inline-block;
 	text-align: left;*/
   height: 100vh;
-  width: 15%;
+  width: 5rem;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -55,7 +55,7 @@ nav {
   background-color: #000000;
   overflow-x: hidden;
   padding-top: 0px;
-  font-size: 1rem;
+  font-size: 10px;
   text-align: left;
   padding-left: 0px;
   overflow-y: hidden;
@@ -164,12 +164,12 @@ canvas {
 @media (min-width:960px) { 
   body {font-size:1.2rem;} 
   .about-me img {width: 200px;} 
-  nav {height: 100vh; width: 15vh; font-size: 1.5rem; padding-top: 0px;}} 
+  nav {height: 100vh; width: 15vh; font-size: 1rem; padding-top: 0px;}} 
 
 @media (min-width:1100px) { 
   body {font-size:1.5rem;} 
   .about-me img {width: 35vh;} 
-  nav {height: 100vh; width: 15vh; font-size: 1.5rem; padding-top: 0px;}}
+  nav {height: 100vh; width: 8%; font-size: 1rem; padding-top: 0px;}}
 
 #page-container {
   position: relative;
