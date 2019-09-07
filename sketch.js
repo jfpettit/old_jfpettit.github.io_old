@@ -1,9 +1,8 @@
 let flock;
 
 function setup() {
-  let canvas = createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
   //let canvas = createCanvas(wideness, longness);
-  canvas.parent("page-container")
   //var container = getElementById('page-container')
   //wideness = container.offsetWidth;
   //longness = container.offsetLength;
