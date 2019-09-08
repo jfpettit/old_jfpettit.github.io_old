@@ -1,7 +1,7 @@
 let flock;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, displayHeight);
   //let canvas = createCanvas(wideness, longness);
   //var container = getElementById('page-container')
   //wideness = container.offsetWidth;
@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  background(200);
+  background("#F8F8FF");
   flock.run();
 }
 
@@ -136,8 +136,11 @@ Boid.prototype.render = function() {
   let theta = this.velocity.heading() + radians(90);
   //fill(color("#4809A6"));
   //fill(color("#708090"));
-  fill(color("#581845"))
-  stroke(200);
+  var r = random(255);
+  var g = random(255);
+  var b = random(255);
+  fill(r, g, b);
+  stroke(r, g, b);
   push();
   translate(this.position.x, this.position.y);
   rotate(theta);
