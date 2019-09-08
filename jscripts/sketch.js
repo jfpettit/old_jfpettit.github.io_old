@@ -1,7 +1,7 @@
 let flock;
 
 function setup() {
-  createCanvas(windowWidth, displayHeight);
+  createCanvas(windowWidth, windowHeight);
   //let canvas = createCanvas(wideness, longness);
   //var container = getElementById('page-container')
   //wideness = container.offsetWidth;
@@ -35,10 +35,10 @@ function touchStarted() {
 
 function windowResized() {
   //resizeCanvas(windowWidth, displayHeight);
-  var container = getElementById('page-container')
-  wideness = container.offsetWidth;
-  longness = container.offsetLength;
-  resizeCanvas(windowWidth, displayHeight)
+  //var container = getElementById('page-container')
+  //wideness = container.offsetWidth;
+  //longness = container.offsetLength;
+  resizeCanvas(windowWidth, windowHeight)
   //canvas.position(windowWidth, displayHeight);
 }
 
