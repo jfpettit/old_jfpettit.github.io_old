@@ -2,6 +2,10 @@ let flock;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  //let canvas = createCanvas(wideness, longness);
+  //var container = getElementById('page-container')
+  //wideness = container.offsetWidth;
+  //longness = container.offsetLength;
   flock = new Flock();
   // Add an initial set of boids into the system
   for (let i = 0; i < 100; i++) {
@@ -17,7 +21,7 @@ function draw() {
 
 
 // Add a new boid into the System
-/*function mousePressed() {
+function mousePressed() {
   for (let i = 0; i < 10; i++){
   flock.addBoid(new Boid(mouseX, mouseY));
   }
@@ -27,10 +31,15 @@ function touchStarted() {
   for (let i = 0; i < 10; i++){
   flock.addBoid(new Boid(mouseX, mouseY));
   }
-}*/
+}
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  //resizeCanvas(windowWidth, displayHeight);
+  //var container = getElementById('page-container')
+  //wideness = container.offsetWidth;
+  //longness = container.offsetLength;
+  resizeCanvas(windowWidth, windowHeight)
+  //canvas.position(windowWidth, displayHeight);
 }
 
 // The Nature of Code
