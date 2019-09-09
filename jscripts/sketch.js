@@ -2,14 +2,13 @@ let flock;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  //let canvas = createCanvas(wideness, longness);
-  //var container = getElementById('page-container')
-  //wideness = container.offsetWidth;
-  //longness = container.offsetLength;
   flock = new Flock();
   // Add an initial set of boids into the system
-  for (let i = 0; i < 100; i++) {
-    let b = new Boid(width / 2,height / 2);
+  for (let i = 0; i < 50; i++) {
+    var locx = randomGaussian(width/2, 5);
+    var locy = randomGaussian(height/2, 5);
+    //let b = new Boid(width / 2,height / 2);
+    let b = new Boid(locx, locy);
     flock.addBoid(b);
   }
 }
@@ -22,24 +21,19 @@ function draw() {
 
 // Add a new boid into the System
 function mousePressed() {
-  for (let i = 0; i < 10; i++){
+  for (let i = 0; i < 5; i++){
   flock.addBoid(new Boid(mouseX, mouseY));
   }
 }
 
 function touchStarted() {
-  for (let i = 0; i < 10; i++){
+  for (let i = 0; i < 5; i++){
   flock.addBoid(new Boid(mouseX, mouseY));
   }
 }
 
 function windowResized() {
-  //resizeCanvas(windowWidth, displayHeight);
-  //var container = getElementById('page-container')
-  //wideness = container.offsetWidth;
-  //longness = container.offsetLength;
-  resizeCanvas(windowWidth, windowHeight)
-  //canvas.position(windowWidth, displayHeight);
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 // The Nature of Code
@@ -139,8 +133,8 @@ Boid.prototype.render = function() {
   var r = random(255);
   var g = random(255);
   var b = random(255);
-  fill(r, g, b);
-  stroke(r, g, b);
+  fill(125);
+  stroke(125);
   push();
   translate(this.position.x, this.position.y);
   rotate(theta);

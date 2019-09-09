@@ -11,13 +11,13 @@ function windowResized() {
 }
 
 function draw() {
-	var r = random(255);
+	//var r = random(255);
 	var g = random(255);
 	var b = random(255);
-	strokeWeight(5);
+	strokeWeight(2);
 	var stepsize = randomGaussian(10, 3)
 	walker.step(stepsize);
-	walker.render(r, g, b);
+	walker.render(0, g, b);
 }
 
 class Walker {
