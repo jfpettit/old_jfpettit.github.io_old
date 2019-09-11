@@ -147,7 +147,7 @@ canvas {
 @media (min-width: 640px) { 
   body {font-size:.8rem;} 
   .about-me img {width: 140px; padding-top: 0px} 
-  nav {height: 100vh; width: 15%; font-size: .8rem; }
+  nav {height: 100vh; width: 90px; font-size: .8rem; }
   .about-me{
   margin-left: 100px;
   margin-right: 100px;
@@ -165,7 +165,7 @@ canvas {
 @media (min-width:960px) { 
   body {font-size:1.2rem;} 
   .about-me img {width: 160px; padding-top:0px;} 
-  nav {height: 100vh; width: 15%; font-size: .8rem; }
+  nav {height: 100vh; width: 140px; font-size: .8rem; }
   .about-me{
   margin-left: 150px;
   margin-right: 150px;
@@ -179,7 +179,7 @@ canvas {
 @media (min-width:1100px) { 
   body {font-size:1.5rem;} 
   .about-me img {width: 200px;} 
-  nav {height: 100vh; width: 12%; font-size: 1rem; }
+  nav {height: 100vh; width: 140px; font-size: 1rem; }
   .about-me{
   margin-left: 150px;
   margin-right: 150px;
