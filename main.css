@@ -177,7 +177,7 @@ canvas {
 } 
 
 @media (min-width:1100px) { 
-  body {font-size:1.5rem;} 
+  body {font-size:1.2rem;} 
   .about-me img {width: 200px;} 
   nav {height: 100vh; width: 12%; font-size: 1rem; }
   .about-me{
