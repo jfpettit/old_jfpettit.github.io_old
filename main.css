@@ -83,8 +83,12 @@ a {
   margin-right: 150px;
 }
 
+.about {
+  align-content: left;
+}
+
 .about-me {
-	text-align: center;
+	text-align: left;
 	padding-top:30px;
 	margin-left: 150px;
 	margin-right: 150px;
@@ -93,14 +97,18 @@ a {
 .about-me img {
 	margin-bottom: 12px;
 	width: 220px;
-  align-content: center;
+  align-content: left;
 }
 
 .contact-me {
-	text-align :center;
+	text-align :left;
 	margin-bottom: 30px;
   margin-left: 160px;
   margin-right: 150px;
+}
+
+.contact {
+  align-content: left;
 }
 
 /* Tablet Landscape 
@@ -186,7 +194,7 @@ canvas {
   }
   .contact-me {
     margin-right: 150px;
-    margin-left: 150px;
+    margin-left: 13%;
   }
 }
 
