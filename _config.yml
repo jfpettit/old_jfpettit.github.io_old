@@ -1,0 +1,18 @@
+title: Jacob Pettit
+author: Jacob Pettit
+baseurl: '/'
+description: My personal website.
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+permalink: /blog/:year/:month/:day/:title
