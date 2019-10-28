@@ -1,12 +1,19 @@
 let flock;
+let avenir;
+
+function preload() {
+  avenir = loadFont('assets/AvenirNextLTPro-Regular.otf');
+}
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  textFont(avenir);
+  textAlign(CENTER, CENTER);
   flock = new Flock();
   // Add an initial set of boids into the system
   for (let i = 0; i < 50; i++) {
-    var locx = randomGaussian(width/2, 5);
-    var locy = randomGaussian(height/2, 5);
+    var locx = randomGaussian(windowWidth/2, 5);
+    var locy = randomGaussian(windowHeight/2, 5);
     //let b = new Boid(width / 2,height / 2);
     let b = new Boid(locx, locy);
     flock.addBoid(b);
@@ -16,6 +23,9 @@ function setup() {
 function draw() {
   background("#F8F8FF");
   flock.run();
+  textSize(40);
+  fill(0);
+  text('Welcome to my homepage!', windowWidth/2, windowHeight/2);
 }
 
 
@@ -234,5 +244,3 @@ Boid.prototype.cohesion = function(boids) {
     return createVector(0, 0);
   }
 }
-
-

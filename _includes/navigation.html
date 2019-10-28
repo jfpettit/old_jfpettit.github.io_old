@@ -1,0 +1,20 @@
+<nav>
+  <a href="/">
+    <img src='/assets/imgs/IMG_6556 copy.png' alt="My photo", class="navigator">
+  </a>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" class="navigator">{{ item.name }}</a>
+  {% endfor %}
+  <a href="https://github.com/jfpettit">
+    <img src='/assets/imgs/github_logo.png' class="navigator" style="width:35px;height:35px;border:0;">
+  </a>
+  <a href="https://twitter.com/jacobpettit18">
+    <img src='/assets/imgs/twitter_logo.png' class="navigator" style="width:35px;height35px;border:0;">
+  </a>
+  <a href="https://jfpettit.svbtle.com">
+    <img src='/assets/imgs/svbtle_logo.png' class="navigator" style="width:35px;height:35px;border:0;">
+  </a>
+  <a href="mailto:jfpettit@gmail.com">
+    <img src='/assets/imgs/email_logo.png' class="navigator" style="width:35px;height:35px;border:0;">
+  </a>
+</nav>

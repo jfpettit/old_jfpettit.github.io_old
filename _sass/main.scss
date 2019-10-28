@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("../assets/AvenirNextLTPro-Regular.otf"); /* File to be stored at your site */
+  font-family: 'Avenir Bold';
+  src: url("../assets/AvenirNextLTPro-Bold.otf");
+  }
+
+html,
+body   {
+  margin: 0;
+  font-family: 'Avenir Next';
+  color : black;
+  height: 100%;
+  font-size: 1rem;
+	margin-left: 3.5rem;
+	margin-right: auto;
+	background: #F8F8FF;
+}
+
+.portrait {
+	margin-bottom: 12px;
+	margin-top: 12px;
+	width: 250px;
+  align-content: center;
+}
+
+a {
+	color : black;
+}
+
+.post-title {
+  text-decoration: none;
+  color: #696780;
+}
+
+.post-title:hover {
+  display: inline-block;
+	padding: 0vh 1vh;
+	border-radius: 1vh;
+	background: #d3d3d3;
+  transition: 0.3s ease all;
+}
+
+nav img {
+	margin-bottom: 12px;
+	margin-top: 12px;
+	width: 60px;
+  align-content: left;
+}
+
+nav {
+  height: 100vh;
+  width: 6rem;
+  position: fixed;
+  padding-top: 0px;
+  padding-left: 0px;
+  display: block;
+  background-color: #000000;
+  top:0;
+  left:0;
+	color: #F0F8FF;
+}
+
+.navigator    {
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+	display: block;
+	padding: 1vh 2vh;
+	border-radius: 1vh;
+	transition: 0.3s ease all;
+  color: #F0F8FF;
+}
+.navigator:hover   {
+	background: #444;
+}
