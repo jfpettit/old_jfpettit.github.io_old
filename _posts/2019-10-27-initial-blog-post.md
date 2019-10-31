@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Jacob Pettit
+comments: true
 ---
 
 Until recently, I've been using [Svbtle](https://svbtle.com) to host my blog. Overall, I really like Svbtle and have enjoyed using their service. However, it is lacking [LaTeX](https://www.latex-project.org/) support. Since I want to blog about machine learning, probability, and math, it's important to me to be able to use LaTeX.
