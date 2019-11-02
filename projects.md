@@ -1,4 +1,13 @@
-# Projects
+---
+layout: default
+title: Projects
+---
+
+<h1>Projects</h1>
+
+{: class="table-of-content"}
+* TOC
+{:toc}
 
 ## [rlpack](https://github.com/jfpettit/rl-pack)
 
@@ -10,7 +19,7 @@ When reading OpenAI's [Requests for Research 2.0](https://openai.com/blog/reques
 
 ## [Senior Practicum](https://github.com/jfpettit/senior-practicum)
 
-To complete the Bachelor of Science degree in Computational Science at FSU, each senior has to complete a semester-long senior project. I spent my project investigating the fundamentals of Reinforcement Learning and familiarizing myself with them. I wrote implementations of a few different algorithms from scratch as part of this work, and my final product for the semester was a paper, linked [here](https://github.com/jfpettit/jfpettit.github.io/blob/master/PracticumPaper.pdf).
+To complete the Bachelor of Science degree in Computational Science at FSU, each senior has to complete a semester-long senior project. I spent my project investigating the fundamentals of Reinforcement Learning and familiarizing myself with them. I wrote implementations of a few different algorithms from scratch as part of this work, and my final product for the semester was a paper, linked [here](https://github.com/jfpettit/senior-practicum/blob/master/PracticumPaper.pdf).
 
 ## [Dynamic Programming Policy Iteration in Gridworld](https://github.com/jfpettit/reinforcement-learning#policy-iteration-with-dynamic-programming-to-solve-gridworld)
 
