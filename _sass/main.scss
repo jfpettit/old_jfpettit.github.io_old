@@ -13,8 +13,22 @@ body   {
   height: 100%;
   font-size: 1rem;
 	margin-left: 4rem;
-	margin-right: 15%;
+	margin-right: 12.5%;
 	background: #F8F8FF;
+}
+
+.post-tag {
+  padding: 0.5vh 1.5vh;
+  border-radius: 1vh;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.post-tag:hover {
+  background: #696780;
+  color: #F8F8FF;
+  border: 1px solid #696780;
+  transition: 0.15s ease all;
 }
 
 .portrait {
@@ -30,15 +44,20 @@ a {
 
 .post-title {
   text-decoration: none;
-  color: #696780;
+  color: black;
+  /*color: #696780;
+  padding: 0vh 1vh;
+	border-radius: 1vh;
+  border: 1px solid #F8F8FF;
+  display: inline-block;*/
 }
 
 .post-title:hover {
-  display: inline-block;
-	padding: 0vh 1vh;
-	border-radius: 1vh;
-	background: #d3d3d3;
-  transition: 0.3s ease all;
+  color: #696780;
+  /*color: #F8F8FF;
+  border: 1px solid #F8F8FF;
+  background: #696780;*/
+  transition: 0.15s ease all;
 }
 
 nav img {

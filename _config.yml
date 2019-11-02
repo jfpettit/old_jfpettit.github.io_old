@@ -2,6 +2,7 @@ title: Jacob Pettit
 author: Jacob Pettit
 baseurl: '/'
 description: My personal website.
+profile_url: "https://jfpettit.github.io"
 
 markdown: kramdown
 

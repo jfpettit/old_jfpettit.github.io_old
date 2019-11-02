@@ -2,7 +2,7 @@
 
 ## [rlpack](https://github.com/jfpettit/rl-pack)
 
-I developed my own reinforcement learning framework with goals of sipmlicity, ease of understanding, and beginner friendliness. So far, I've implemented a couple of algorithms and in the future will extend the framework to include more. My blog post on rlpack is [here](https://jfpettit.svbtle.com/rlpack) and the GitHub repository for rlpack is [here](https://github.com/jfpettit/rl-pack).
+I developed my own reinforcement learning framework with goals of simplicity, ease of understanding, and beginner friendliness. So far, I've implemented a couple of algorithms and in the future will extend the framework to include more. My blog post on rlpack is [here](https://jfpettit.svbtle.com/rlpack) and the GitHub repository for rlpack is [here](https://github.com/jfpettit/rl-pack).
 
 ## [gym-snake-rl](https://github.com/jfpettit/gym-snake-rl)
 
