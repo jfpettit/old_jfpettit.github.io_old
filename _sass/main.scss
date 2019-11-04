@@ -85,9 +85,9 @@ nav {
 .navigator    {
   align-content: center;
 	font-weight: bold;
-	display: inline-block;
-	text-decoration: none;
 	display: block;
+  /*display: block;*/
+	text-decoration: none;
 	padding: 1vh 2vh;
 	border-radius: 1vh;
 	transition: 0.3s ease all;
@@ -95,4 +95,5 @@ nav {
 }
 .navigator:hover   {
 	background: #697689;
+  color: black;
 }
