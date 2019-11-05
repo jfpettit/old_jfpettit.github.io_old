@@ -14,7 +14,7 @@ In this post, we'll get into the weeds with some of the fundamentals of reinforc
 
 # Markov Decision Processes
 
-In reinforcement learning (RL), we want to solve a Markod Decision Process (MDP) by figuring out how to take actions that maximize the reward received. The actor in an MDP is called an agent. In an MDP, actions taken influence both current and future rewards received and actions influence future states the agent finds itself in. Because of this, solving an MDP requires that an agent is able to handle delayed reward and must be able to balance a trade-off between obtaining reward immediately and delaying reward collection. Below we have a diagram of the classic MDP formulation of agent-environment interaction.
+In reinforcement learning (RL), we want to solve a Markov Decision Process (MDP) by figuring out how to take actions that maximize the reward received. The actor in an MDP is called an agent. In an MDP, actions taken influence both current and future rewards received and actions influence future states the agent finds itself in. Because of this, solving an MDP requires that an agent is able to handle delayed reward and must be able to balance a trade-off between obtaining reward immediately and delaying reward collection. Below we have a diagram of the classic MDP formulation of agent-environment interaction.
 
 ![mdp-rl-interaction-loop](https://www.kdnuggets.com/images/reinforcement-learning-fig1-700.jpg)
 
