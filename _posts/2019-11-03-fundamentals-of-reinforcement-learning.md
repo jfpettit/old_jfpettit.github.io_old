@@ -26,7 +26,7 @@ Some examples of a state might be a frame of an Atari game or the current layout
 
 The model of the environment consists of a state transition function and a reward function. Here, the transition function will be discussed and later we'll talk about reward functions. In finite MDPs (the kind of MDP we are concerned with), the number of states, actions, and rewards are all finite values. Because of this property, they also all have well-defined probability distributions. The distribution over the next state and next reward depends only on the previous state and action. This is called the Markov property. For the random variables $$s' \in S$$ and $$r \in \mathbb{R}$$, there is a probability at time $$t$$ that they'll have particular values. This probability is conditional on the previous state and action, and can be written out like this:
 
-$$p(s', r | s, a) \stackrel{.}{=} P[s_t = s, r_t = r | s_{t-1} = s, a_{t-1} = a]$$
+$$p(s', r | s, a) \stackrel{.}{=} P[s_t = s', r_t = r | s_{t-1} = s, a_{t-1} = a]$$
 
 This 4-argument function, $$p$$, fully captures the dynamics of the MDP and tells us, formally, that our new state ($$s'$$) and reward are random variables whose distribution is conditioned on the previous state and action. A complete model of an MDP can be used to calculate anything we want about the environment. State-transition probabilities can be found, expected rewards for state-action pairs, and even expected rewards for state-action-next state triplets.
 
