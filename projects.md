@@ -8,7 +8,7 @@ title: Projects
 
 <h2 class='post-title'><a class='post-title' href="https://github.com/jfpettit/flare">flare</a></h2>
 
-I developed my own reinforcement learning framework with goals of simplicity, ease of understanding, beginner friendliness, and performance. So far, I've implemented a couple of algorithms and in the future will extend the framework to include more. My old blog post on ```flare``` is [here](https://jfpettit.svbtle.com/rlpack) and the GitHub repository for ```flare``` is [here](https://github.com/jfpettit/flare). I will write an updated blog post on ```flare``` in the near future.
+I developed my own reinforcement learning framework with goals of simplicity, ease of understanding, beginner friendliness, and performance. So far, I've implemented a couple of algorithms and in the future will extend the framework to include more. My old blog post on ```flare``` is [here](https://jfpettit.svbtle.com/rlpack) and the GitHub repository is [here](https://github.com/jfpettit/flare). I will write an updated blog post on ```flare``` in the near future.
 
 <h2 class='post-title'><a class='post-title' href="https://github.com/jfpettit/gym-snake-rl">gym-snake-rl</a></h2>
 
