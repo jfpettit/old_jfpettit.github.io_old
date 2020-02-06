@@ -2,10 +2,6 @@
 layout: default
 title: About me
 ---
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.4/lib/darkmode-js.min.js"></script>
-<script>
-  new Darkmode().showWidget();
-</script>
 
 
 <img class="portrait" src="/assets/imgs/IMG_6556 copy.png">

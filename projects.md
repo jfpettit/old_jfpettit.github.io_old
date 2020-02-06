@@ -2,10 +2,6 @@
 layout: default
 title: Projects
 ---
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.4/lib/darkmode-js.min.js"></script>
-<script>
-  new Darkmode().showWidget();
-</script>
 
 <h1>Projects</h1>
 
