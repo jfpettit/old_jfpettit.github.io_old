@@ -1,1 +1,1 @@
-Jacob Pettit's website. Find it [here](https://jfpettit.github.io). I borrowed much of the tagging system from [Lilian Weng's](https://lilianweng.github.io) awesome blog.
+Jacob Pettit's website. Find it [here](https://jfpettit.github.io). I borrowed much of the tagging system from [Lilian Weng's](https://lilianweng.github.io) awesome blog. The dark mode toggle I got from [here](https://darkmodejs.learn.uno/).
