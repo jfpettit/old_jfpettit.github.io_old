@@ -1,11 +1,11 @@
 <nav>
-  <!--<a href="/">
-    <img src='/assets/imgs/IMG_6556 copy.png' alt="My photo", class="navigator">
-  </a>-->
+  <a href="/">
+    <img src="/assets/imgs/site-logo.png">
+  </a>
   {% for item in site.data.navigation %}
     <!--<a href="{{ item.link }}" class="navigator">{{ item.name }}</a>-->
     {% if page.url == item.link %}
-      <a href="{{item.linkl}}" class="navigator active">{{item.name}}</a>
+      <a href="{{item.linkl}}" class="navigator">{{item.name}}</a>
     {% else %}
       <a href="{{item.link}}", class="navigator">{{item.name}}</a>
     {% endif %}

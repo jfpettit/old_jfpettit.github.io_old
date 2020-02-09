@@ -1,59 +1,64 @@
-/*@font-face {
-  font-family: 'Avenir Next';
-  src: url("../assets/AvenirNextLTPro-Regular.otf"); /* File to be stored at your site 
-  font-family: 'Avenir Bold';
-  src: url("../assets/AvenirNextLTPro-Bold.otf");
-  }*/
-
-/*$accent-color: #9601fa;*/
-$accent-color: linear-gradient(to right, red, blue);
+$accent-color: rgba(121,4,199,1);
+$accent-color2: rgba(8,4,199,1);
 $font-color: black;
 $bg-color: rgb(238, 242, 255);
 $middle-color: rgb(226, 234, 250);
+$grad1: linear-gradient(to bottom right, rgba(121,4,199,1) 0%, rgba(251,26,26,1) 100%);
+$grad2: linear-gradient(to bottom right, rgba(8,4,199,1) 0%, rgba(26,251,27,1) 100%);
 
-html {
+html, body {
   background-color: $bg-color;
-  display: grid;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
-body   {
-  display: inline-grid;
+
+#page-container   {
   font-family: 'Dosis', sans-serif;
   color : $font-color;
-  height: 100%;
+  min-height: 85%;
+  position: relative;
   font-size: 1rem;
-	/*margin-left: 4rem;
-  margin-right: 12.5%;*/
-  align-content: center;
   background: $middle-color;
   margin-left: 2.5%;
   margin-right: 2.5%;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
-  padding: 8px;
-  grid-template-columns: repeat(auto-fit, 300px);
-  grid-auto-rows: minmax(150px, auto);
-  grid-gap: 8px;
+  margin-bottom: 0.5%;
+  padding: 20px;
   justify-content: center;
 }
 
-/*.post-tag {
+#page-body {
+  padding: 8px;
+  background-color: $middle-color;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-gap: 30px;
+  justify-content: center;;
+  background-color: $middle-color;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 20px;
+  transition: 0.3s ease all;
+}
+
+
+.post-tag {
   padding: 0.5vh 1.5vh;
   border-radius: 1vh;
   border: 1px solid $font-color;
   text-decoration: none;
   color: $font-color;
-  display: grid;
-  width: 1vh;
-  height: 1vh;
 }
 
 .post-tag:hover {
-  background: $accent-color;
-  color: $font-color;
-  border: 1px solid $bg-color;
+  background: $grad2;
+  color: $middle-color;
+  border: 1px solid $middle-color;
   transition: 0.3s ease all;
-}*/
+}
 
 .portrait {
   width: 250px;
@@ -61,61 +66,53 @@ body   {
   display:block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 4%;
 }
 
 a {
 	color : $font-color;
 }
 
-.post-title {
+.post-card {
+  background: $bg-color;
   text-decoration: none;
   color: $font-color;
-  /*align-content: center;
-  /*color: #696780;
-  padding: 0vh 1vh;
-	border-radius: 1vh;
-  border: 1px solid #F8F8FF;
-  display: inline-block;
-  transition: 0.3s;
-  border-bottom: 2px solid transparent;*/
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: auto;
-  grid-gap: 1rem;
+  margin-top: 30px;
+  border-radius: 0.75vh;
+  padding: 15px;
+  transition: 0.3s ease all;
+  .title, .excerpt {
+    text-decoration: none;
+  }
+  .post-tag {
+    padding: 0.5vh 1.5vh;
+    border-radius: 1vh;
+    border: 1px solid $font-color;
+    text-decoration: none;
+    color: $font-color;
+  }
+  
 }
 
 
-.post-title:hover {
-  /*color: #696780;*/
-  /*color: #002366;*/
-  /*color: #F8F8FF;
-  border: 1px solid #F8F8FF;
-  background: #696780;*/
-  border-color: $accent-color;
+.post-card:hover {
+  background: $grad2;
+  .title, .excerpt{
+    color: $bg-color;
+  }
+  .post-tag {
+    color: $middle-color;
+    border: 1px solid $middle-color;
+    transition: 0.3s ease all;
+  }
+  .post-tag:hover{
+    background: $middle-color;
+    color:$accent-color2;
+    border: 1px solid $accent-color2;
+  }
 }
-
-.post-title > excerpt {
-  text-decoration: none;
-  color: $font-color;
-  /*align-content: center;
-  /*color: #696780;
-  padding: 0vh 1vh;
-	border-radius: 1vh;
-  border: 1px solid #F8F8FF;
-  display: inline-block;
-  transition: 0.3s;
-  border-bottom: 2px solid transparent;*/
-}
-
-/*nav img {
-	margin-bottom: 12px;
-	margin-top: 12px;
-	width: 0px;
-  align-content: center;
-}*/
 
 nav {
-  /*height: 100vh;
-  width: 7rem;*/
   position: absolute;
   text-align: center;
   padding-top: 0px;
@@ -131,11 +128,35 @@ nav {
   align-content:center;
 }
 
+nav {
+  align-content: left;;
+  img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left:10px;
+    top:10px;
+    margin: 0px 15px 15px 0px;
+    transition: 0.3s ease all;
+    color: $font-color;
+    border-bottom: 2px solid transparent;
+  }
+  img:hover {
+    border-color: grey;
+  }
+}
+
+header[role="banner"] {
+  #logo-main {
+    display: block;
+  }
+}
+
+
 .navigator  {
+  float: right;
   margin-top: 10px;
-  align-content: center;
 	font-weight: bold;
-  display: inline-block;;
 	text-decoration: none;
 	padding: 1vh 2vh;
 	transition: 0.3s ease all;
@@ -144,41 +165,30 @@ nav {
 }
 
 .navigator:hover   {
-  border-color: $accent-color;
-  color: $accent-color;
-  /*color: black;*/
+  border-color: grey;
+  color: grey;
 }
 
-/*#wrap {
-  min-height: 100%;
-}
-
-#main {
-  overflow: auto;
-  padding-bottom: 40px;
-  /* must be same height as the footer 
-}*/
-
-.my-footer  {
-  left: 0;
+.footer  {
+  position: relative;
   right: 0;
   bottom: 0;
-  display: flex;
-  color: $font-color;
+  left: 0;
+  margin-bottom: 0;
+  width: 100%;
   height: 40px;
-  margin-bottom: 0px;
-  justify-items: center;
+  display: inline-flex;
+  color: $font-color;
+  justify-content: center;
+  align-content: center;
   img {
     width: 30px;
     height: 30px;
     padding: 5px;
     transition: 0.3s ease all;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
   }
   img:hover {
-    background-color: $accent-color;
+    background-color: grey;
     border-radius: 100%;
   }
 }

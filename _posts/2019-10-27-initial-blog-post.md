@@ -5,6 +5,8 @@ comments: true
 tags: blog-news
 ---
 
+**I recently migrated my blog from the Svbtle platform onto GitHub pages. This post briefly talks about that experience and why I moved away from Svbtle.**
+
 Until recently, I've been using [Svbtle](https://svbtle.com) to host my blog. Overall, I really like Svbtle and have enjoyed using their service. However, it is lacking [LaTeX](https://www.latex-project.org/) support. Since I want to blog about machine learning, probability, and math, it's important to me to be able to use LaTeX.
 
 LaTeX is a mathematical typesetting language, meaning that it can be used to write math equations like this one:

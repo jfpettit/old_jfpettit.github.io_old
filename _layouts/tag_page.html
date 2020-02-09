@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-
+<div id="page-container">
 <div class="post">
 <h1>Tag: {{ page.tag }}</h1>
 {% for post in site.tags[page.tag] %}
   <h3><a class="post-title" href="{{ post.url }}">{{ post.title }} ({{ post.date | date_to_string }})</a></h3>
     {{ post.description }}
 {% endfor %}
+</div>
 </div>

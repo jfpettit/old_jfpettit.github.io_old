@@ -1,6 +1,6 @@
-- name: Blog
-  link: /
-- name: About
-  link: /about.html
 - name: Projects
   link: /projects.html
+- name: About
+  link: /about.html
+- name: Blog
+  link: /

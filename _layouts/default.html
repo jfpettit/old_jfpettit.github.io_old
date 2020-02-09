@@ -6,12 +6,17 @@
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="/favicon.ico">
     {% feed_meta %}
     {% seo %}
   </head>
   <body>
-  	{% include navigation.html %}
+    <div id="page-container">
+    {% include navigation.html %}
+    <div id="page-body">
     {{ content }}
-    {% include footer.html %}
+    </div>
+  </div>
+  {% include footer.html %}
   </body>
 </html>

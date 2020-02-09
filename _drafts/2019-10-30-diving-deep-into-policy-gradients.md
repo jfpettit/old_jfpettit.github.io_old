@@ -5,7 +5,7 @@ comments: true
 tags: long-post reinforcement-learning
 ---
 
-In this post, we'll do a deep dive into the policy gradient theorem and the REINFORCE policy gradient algorithm. I'll be assuming familiarity with at least the basics of RL. If you need a refresher, I have a blog post on this [here](https://jfpettit.github.io/blog/2019/11/03/fundamentals-of-reinforcement-learning). We'll cover the math behind REINFORCE and will write some code to train a REINFORCE agent.
+**In this post, we'll do a deep dive into the policy gradient theorem and the REINFORCE policy gradient algorithm. I'll be assuming familiarity with at least the basics of RL. If you need a refresher, I have a blog post on this [here](https://jfpettit.github.io/blog/2019/11/03/fundamentals-of-reinforcement-learning). We'll cover the math behind REINFORCE and will write some code to train a REINFORCE agent.**
 
 {: class="table-of-content"}
 * TOC

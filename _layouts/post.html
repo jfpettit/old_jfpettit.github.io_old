@@ -6,14 +6,16 @@ layout: default
 
 <body>
 
-<h1 style="color:white">{{ page.title }}</h1>
-<h3 style="color:white"> {{ page.date | date_to_string }} by {{ page.author }}</h3>
+<div id="page-container">
+
+<h1 style="color:black">{{ page.title }}</h1>
+<h3 style="color:black"> {{ page.date | date_to_string }} by {{ page.author }}</h3>
 
 {% assign words = content | number_of_words %}
 {% if words < 360 %}
-  <h4 style="color:white">Estimated read time: 1 min</h4>
+  <h4 style="color:black">Estimated read time: 1 min</h4>
 {% else %}
-  <h4 style="color:white">Estimated read time: {{ words | divided_by: 180 }} mins</h4>
+  <h4 style="color:black">Estimated read time: {{ words | divided_by: 180 }} mins</h4>
 {% endif %}
 
 {% for tag in page.tags %}
@@ -21,7 +23,7 @@ layout: default
   <a class="post-tag" href="/tags/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
 {% endfor %}
 {{ content }}
-</body>
+
 {% if page.comments %}
   <div id="disqus_thread"></div>
   <script>
@@ -44,3 +46,5 @@ layout: default
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
+</div>
+</body>
