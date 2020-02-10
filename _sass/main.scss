@@ -34,7 +34,7 @@ html, body {
 
 .grid-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-columns: repeat(auto-fit, 15%);
   grid-gap: 30px;
   justify-content: center;;
   background-color: $middle-color;
