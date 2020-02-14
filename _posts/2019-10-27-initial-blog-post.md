@@ -3,6 +3,7 @@ layout: post
 author: Jacob Pettit
 comments: true
 tags: blog-news
+featured-image: /assets/imgs/SOME BLOG news.png
 ---
 
 **I recently migrated my blog from the Svbtle platform onto GitHub pages. This post briefly talks about that experience and why I moved away from Svbtle.**

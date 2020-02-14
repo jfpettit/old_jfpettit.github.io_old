@@ -13,10 +13,17 @@ html, body {
   height: 100%;
 }
 
+.featured-image-banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 #page-container   {
   font-family: 'Dosis', sans-serif;
   color : $font-color;
-  min-height: 85%;
+  min-height: 87.5%;
   position: relative;
   font-size: 1rem;
   background: $middle-color;
@@ -34,12 +41,12 @@ html, body {
 
 .grid-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 30px;
   justify-content: center;;
   background-color: $middle-color;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  /*margin-left: 2.5%;
+  margin-right: 2.5%;*/
   margin-top: 20px;
   transition: 0.3s ease all;
 }
@@ -81,6 +88,14 @@ a {
   border-radius: 0.75vh;
   padding: 15px;
   transition: 0.3s ease all;
+  img {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 0.75vh;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
   .title, .excerpt {
     text-decoration: none;
   }
@@ -108,7 +123,7 @@ a {
   .post-tag:hover{
     background: $middle-color;
     color:$accent-color2;
-    border: 1px solid $accent-color2;
+    border: 1px solid $middle-color;
   }
 }
 
@@ -129,29 +144,21 @@ nav {
 }
 
 nav {
-  align-content: left;;
+  align-content: left;
   img {
     position: absolute;
     width: 30px;
     height: 30px;
-    left:10px;
-    top:10px;
-    margin: 0px 15px 15px 0px;
+    left:0px;
+    top: 15px;
     transition: 0.3s ease all;
     color: $font-color;
     border-bottom: 2px solid transparent;
   }
-  img:hover {
+  img:hover   {
     border-color: grey;
   }
 }
-
-header[role="banner"] {
-  #logo-main {
-    display: block;
-  }
-}
-
 
 .navigator  {
   float: right;

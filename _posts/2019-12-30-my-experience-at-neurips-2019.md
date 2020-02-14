@@ -3,6 +3,7 @@ layout: post
 author: Jacob Pettit
 comments: true
 tags: conferences
+featured-image: /assets/imgs/NeurIPS 2019.png
 ---
 
 **Last year I was fortunate enough to attend NeurIPS 2019. It was an amazing experience, I was able to meet lots of smart people and learned a ton. This post discusses my time at NeurIPS 2019**
@@ -10,7 +11,7 @@ tags: conferences
 This December, I was lucky enough to be able to go to my first [NeurIPS](https://neurips.cc/) and present my [work](https://arxiv.org/abs/1912.03408) at the workshop [Tackling Climate Change with AI](https://www.climatechange.ai/NeurIPS2019_workshop.html). While it was exciting to be able to present my first paper at such a big workshop (and to give a [spotlight talk](https://slideslive.com/38922109/tackling-climate-change-with-ml-4), my talk starts at about the 33:30 mark), the real highlights were getting to hear about the amazing work being done by others in the field and networking with people. And I got to meet [Richard Sutton](http://www.incompleteideas.net/), the godfather of Reinforcement Learning :open_mouth:! (Richard is the guy in the blue button down shirt in the photo)
 
 
-<img src='/assets/imgs/IMG_1174.JPG' style='width:800px; height:600px'>
+<img src='/assets/imgs/IMG_1174.JPG' style='width:100%; height:auto'>
 
 {: class="table-of-content"}
 * TOC

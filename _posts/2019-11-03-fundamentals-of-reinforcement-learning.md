@@ -4,6 +4,7 @@ author: Jacob Pettit
 comments: true
 title: Looking at the Fundamentals of Reinforcement Learning
 tags: long-post reinforcement-learning
+featured-image: /assets/imgs/FUNDAMENTALS OF RL.png
 ---
 
 **In this post, we'll get into the weeds with some of the fundamentals of reinforcement learning. Hopefully, this will serve as a thorough overview of the basics for someone who is curious and doesn't want to invest a significant amount of time into learning all of the math and theory behind the basics of reinforcement learning.**
