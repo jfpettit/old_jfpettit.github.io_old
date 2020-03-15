@@ -1,10 +1,12 @@
-$accent-color: rgba(121,4,199,1);
-$accent-color2: rgba(8,4,199,1);
+$accent-color: rgb(47, 248, 154);
+$accent-color2: rgb(28, 32, 241);
+$accent-color3: rgb(20, 235, 49);
+$accent-color4: rgb(248, 71, 71);
 $font-color: black;
 $bg-color: rgb(238, 242, 255);
 $middle-color: rgb(226, 234, 250);
 $grad1: linear-gradient(to bottom right, rgba(121,4,199,1) 0%, rgba(251,26,26,1) 100%);
-$grad2: linear-gradient(to bottom right, rgba(8,4,199,1) 0%, rgba(26,251,27,1) 100%);
+$grad2: linear-gradient(to bottom, $accent-color2,transparent), linear-gradient(to left, $accent-color, transparent), linear-gradient(to right, $accent-color4, transparent)/*, linear-gradient(to top right, $accent-color, transparent)*/;
 
 html, body {
   background-color: $bg-color;
@@ -70,7 +72,7 @@ html, body {
   background: $grad2;
   color: $middle-color;
   border: 1px solid $middle-color;
-  transition: 0.3s ease all;
+  transition: 0.1s ease all;
 }
 
 .portrait {
@@ -118,6 +120,7 @@ a {
 
 .post-card:hover {
   background: $grad2;
+  background-attachment: fixed;
   .title, .excerpt{
     color: $bg-color;
   }

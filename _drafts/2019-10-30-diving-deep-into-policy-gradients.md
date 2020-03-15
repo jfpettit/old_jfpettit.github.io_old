@@ -13,4 +13,10 @@ tags: long-post reinforcement-learning
 
 # What are policy gradients
 
-Policy gradients are a class of methods used to tackle RL problems. They work by finding a function which determines what actions to take at each step in the RL environment.
+Policy gradients are a class of methods used to tackle RL problems. They work by finding a function determines what actions to take at each step in an RL environment. A learned policy gradient can be stochastic or deterministic.
+
+## Stochastic vs. Deterministic policy gradients
+
+A stochastic policy gradient learns a distribution over actions given a current state. This is written as:
+
+$$ p(a | s) = 
