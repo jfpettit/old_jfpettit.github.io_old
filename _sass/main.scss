@@ -59,7 +59,6 @@ html, body {
   transition: 0.3s ease all;
 }
 
-
 .post-tag {
   padding: 0.5vh 1.5vh;
   border-radius: 1vh;
@@ -69,9 +68,10 @@ html, body {
 }
 
 .post-tag:hover {
-  background: $grad2;
-  color: $middle-color;
-  border: 1px solid $middle-color;
+  background: $bg-color;
+  color: black;
+  box-shadow: 1.5px 3px black;
+  border: 1px solid $bg-color;
   transition: 0.1s ease all;
 }
 
@@ -95,7 +95,8 @@ a {
   margin-top: 30px;
   border-radius: 0.75vh;
   padding: 15px;
-  transition: 0.3s ease all;
+  transition: 0.1s ease all;
+  border: 2px solid transparent;
   img {
     width: 100%;
     max-height: 100%;
@@ -119,19 +120,23 @@ a {
 
 
 .post-card:hover {
-  background: $grad2;
+  background: rgb(190, 245, 255);
   background-attachment: fixed;
+  /*box-shadow: 3px 6px rgb(160, 236, 241);*/
+  /*box-shadow: 3px 6px skyblue;*/
+  box-shadow: 3px 6px black;
+  border: 2px solid black;
   .title, .excerpt{
-    color: $bg-color;
+    color: black;
   }
   .post-tag {
-    color: $middle-color;
-    border: 1px solid $middle-color;
+    color: black;
+    border: 1px solid black;
     transition: 0.3s ease all;
   }
   .post-tag:hover{
     background: $middle-color;
-    color:$accent-color2;
+    color: black;
     border: 1px solid $middle-color;
   }
 }
@@ -160,29 +165,72 @@ nav {
     height: 30px;
     left:0px;
     top: 15px;
-    transition: 0.3s ease all;
+    transition: 0.1s ease all;
     color: $font-color;
-    border-bottom: 2px solid transparent;
+    border: 2px solid transparent;
   }
   img:hover   {
-    border-color: grey;
+    border-color: black;
+    border-radius: 0.75vh;
+    box-shadow: 2px 3px black;
   }
 }
 
-.navigator  {
+.Blog {
   float: right;
   margin-top: 10px;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 1vh 2vh;
-	transition: 0.3s ease all;
+	transition: 0.1s ease all;
   color: $font-color;
-  border-bottom: 2px solid transparent;
+  border: 2px solid transparent; 
 }
 
-.navigator:hover   {
-  border-color: grey;
-  color: grey;
+.Blog:hover   {
+  border-color: black;
+  /*color: grey;*/
+  border-radius: 0.75vh;
+  box-shadow: 2px 3px black;
+  background-color: rgb(190, 245, 255);
+}
+
+.About  {
+  float: right;
+  margin-top: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 1vh 2vh;
+	transition: 0.1s ease all;
+  color: $font-color;
+  border: 2px solid transparent;
+}
+
+.About:hover   {
+  border-color: black;
+  /*color: grey;*/
+  border-radius: 0.75vh;
+  box-shadow: 2px 3px black;
+  background-color: rgb(190, 255, 209);
+}
+
+.Projects  {
+  float: right;
+  margin-top: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 1vh 2vh;
+	transition: 0.1s ease all;
+  color: $font-color;
+  border: 2px solid transparent;
+}
+
+.Projects:hover   {
+  border-color: black;
+  /*color: grey;*/
+  border-radius: 0.75vh;
+  box-shadow: 2px 3px black;
+  background-color: rgb(238, 255, 190);
 }
 
 .footer  {
@@ -201,10 +249,10 @@ nav {
     width: 30px;
     height: 30px;
     padding: 5px;
-    transition: 0.3s ease all;
+    transition: 0.1s ease all;
   }
   img:hover {
-    background-color: grey;
+    background-color: black;
     border-radius: 100%;
   }
 }
