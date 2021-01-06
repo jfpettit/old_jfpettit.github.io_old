@@ -2,9 +2,10 @@ $accent-color: rgb(47, 248, 154);
 $accent-color2: rgb(28, 32, 241);
 $accent-color3: rgb(20, 235, 49);
 $accent-color4: rgb(248, 71, 71);
-$font-color: black;
-$bg-color: rgb(238, 242, 255);
-$middle-color: rgb(226, 234, 250);
+$font-color: rgb(228, 225, 225);
+$bg-color: #121212;
+$post-card-color: rgb(190, 255, 209);
+$middle-color: rgb(42, 42, 42);
 $grad1: linear-gradient(to bottom right, rgba(121,4,199,1) 0%, rgba(251,26,26,1) 100%);
 $grad2: linear-gradient(to bottom, $accent-color2,transparent), linear-gradient(to left, $accent-color, transparent), linear-gradient(to right, $accent-color4, transparent)/*, linear-gradient(to top right, $accent-color, transparent)*/;
 
@@ -46,7 +47,8 @@ html, body {
 
 .grid-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  /*grid-template-columns: fit-content(50%);*/
   @media only screen and (max-width: 1000px) {
     grid-template-columns: repeat(1, minmax(300px, 1fr));
   }
@@ -69,7 +71,7 @@ html, body {
 
 .post-tag:hover {
   background: $bg-color;
-  color: black;
+  color: $font-color;
   box-shadow: 1.5px 3px black;
   border: 1px solid $bg-color;
   transition: 0.1s ease all;
@@ -82,6 +84,14 @@ html, body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 4%;
+}
+
+.banner {
+  width: 80%;
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  float: none;
 }
 
 a {
@@ -120,7 +130,8 @@ a {
 
 
 .post-card:hover {
-  background: rgb(190, 245, 255);
+  /*background: rgb(136, 204, 236);*/
+  background: $post-card-color;
   background-attachment: fixed;
   /*box-shadow: 3px 6px rgb(160, 236, 241);*/
   /*box-shadow: 3px 6px skyblue;*/
@@ -136,7 +147,7 @@ a {
   }
   .post-tag:hover{
     background: $middle-color;
-    color: black;
+    color: white;
     border: 1px solid $middle-color;
   }
 }
@@ -173,6 +184,7 @@ nav {
     border-color: black;
     border-radius: 0.75vh;
     box-shadow: 2px 3px black;
+    background-color: white;
   }
 }
 
@@ -190,6 +202,7 @@ nav {
 .Blog:hover   {
   border-color: black;
   /*color: grey;*/
+  color: black;
   border-radius: 0.75vh;
   box-shadow: 2px 3px black;
   background-color: rgb(190, 245, 255);
@@ -209,6 +222,7 @@ nav {
 .About:hover   {
   border-color: black;
   /*color: grey;*/
+  color: black;
   border-radius: 0.75vh;
   box-shadow: 2px 3px black;
   background-color: rgb(190, 255, 209);
@@ -228,6 +242,7 @@ nav {
 .Projects:hover   {
   border-color: black;
   /*color: grey;*/
+  color: black;
   border-radius: 0.75vh;
   box-shadow: 2px 3px black;
   background-color: rgb(238, 255, 190);
@@ -252,7 +267,7 @@ nav {
     transition: 0.1s ease all;
   }
   img:hover {
-    background-color: black;
+    background-color: $middle-color;
     border-radius: 100%;
   }
 }

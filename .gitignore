@@ -2,3 +2,6 @@ Gemfile.lock
 .DS_Store
 _site/
 */_drafts
+*/wandb
+*wandb*
+**.ckpt

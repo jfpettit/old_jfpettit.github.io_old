@@ -7,7 +7,7 @@ title: Diving Deep with Policy Gradients - REINFORCE and A2C
 featured-image: /assets/imgs/Diving Deep with REINFORCE and A2C.png
 ---
 
-**In this post, we'll talk about the REINFORCE policy gradient algorithm and the Advantage Actor Critic (A2C) algorithm. I'll be assuming familiarity with at least the basics of RL. If you need a refresher, I have a blog post on this [here](https://jfpettit.github.io/blog/2019/11/03/fundamentals-of-reinforcement-learning). For an interactive version of this blog post, see [this colab notebook](https://colab.research.google.com/drive/1F1Xv_cZk38HOikjBoviEco9piuyi9Dbq?usp=sharing).**
+**In this post, we'll talk about the REINFORCE policy gradient algorithm and the Advantage Actor Critic (A2C) algorithm. I'll be assuming familiarity with at least the basics of RL.**
 
 {: class="table-of-content"}
 * TOC
@@ -15,6 +15,8 @@ featured-image: /assets/imgs/Diving Deep with REINFORCE and A2C.png
 # A Tutorial on REINFORCE and A2C Policy Gradient Algorithms
 
 During this, we'll focus on connecting theory to code. 
+
+If you need a refresher on the basics of RL, I have a blog post on this [here](https://jfpettit.github.io/blog/2019/11/03/fundamentals-of-reinforcement-learning). For an interactive version of this blog post, see [this colab notebook](https://colab.research.google.com/drive/1F1Xv_cZk38HOikjBoviEco9piuyi9Dbq?usp=sharing)
 
 We'll begin with some fundamental RL concepts and terminology, and then quickly move on to covering the algorithms.
 

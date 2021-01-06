@@ -3,8 +3,10 @@ layout: default
 title: About me
 ---
 
+<img class="banner" src="/assets/imgs/banner-5s.gif">
 
-<img class="portrait" src="/assets/imgs/IMG_6556 copy.png">
+<!--<img class="portrait" src="/assets/imgs/IMG_6556 copy.png">-->
+
 
 I'm Jacob Pettit, I did my B.S. in [Scientific Computing](https://www.sc.fsu.edu/) at Florida State University. I'm currently working on machine learning research at Lawrence Livermore National Laboratory. Long term, I'd like to try to understand cognition and develop intelligent machines. I'm also interested in meta-learning, knowledge representation, and reinforcement learning (RL).
 
