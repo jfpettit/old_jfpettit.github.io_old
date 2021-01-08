@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <script src="../js/main.js"></script>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet"> 
@@ -20,8 +21,17 @@
       gtag('config', 'UA-159091655-1');
     </script>
   </head>
-  <body>
+  <body class="dark">
     <div id="page-container">
+      <!--<div class="toggle" title="toggle dark mode">
+        <label>
+          <input type="button" name="">
+          <span></span>
+        </label>
+      </div>-->
+      <button id="dark-theme-toggle" onclick="toggleTheme()">
+        <div class="shape"></div>
+      </button>
     {% include navigation.html %}
     <div id="page-body">
     {{ content }}
