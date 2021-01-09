@@ -13,14 +13,14 @@ layout: default
 <div id="page-container">
 
 
-<h1 style="color:rgb(228, 225, 225)">{{ page.title }}</h1>
-<h3 style="color:rgb(228, 225, 225)"> {{ page.date | date_to_string }} by {{ page.author }}</h3>
+<h1 class="post-title">{{ page.title }}</h1>
+<h3 class="post-date"> {{ page.date | date_to_string }} by {{ page.author }}</h3>
 
 {% assign words = content | number_of_words %}
 {% if words < 360 %}
-  <h4 style="color:rgb(228, 225, 225)">Estimated read time: 1 min</h4>
+  <h4 class="post-read-time">Estimated read time: 1 min</h4>
 {% else %}
-  <h4 style="color:rgb(228, 225, 225)">Estimated read time: {{ words | divided_by: 180 }} mins</h4>
+  <h4 class="post-read-time">Estimated read time: {{ words | divided_by: 180 }} mins</h4>
 {% endif %}
 
 {% for tag in page.tags %}

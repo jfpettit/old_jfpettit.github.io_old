@@ -44,6 +44,18 @@ body {
   height: 100%;
 }
 
+.post-title {
+  color: var(--font-color);
+}
+
+.post-date {
+  color: var(--font-color);
+}
+
+.post-read-time {
+  color: var(--font-color);
+}
+
 #dark-theme-toggle {
   top: 92%;
   left: 1%;
@@ -203,7 +215,9 @@ a {
 }
 
 nav {
-  position: absolute;
+  position: fixed;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   text-align: center;
   padding-top: 0px;
   padding-left: 0px;
@@ -212,7 +226,7 @@ nav {
   top:0;
   left:0;
   z-index: 9999;
-  width: 100%;
+  width: 95%;
   height: 60px;
 	color: var(--font-color);
   align-content:center;
