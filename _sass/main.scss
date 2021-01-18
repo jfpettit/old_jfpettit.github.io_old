@@ -1,3 +1,5 @@
+@import "sass-code-highlight/monokai";
+
 $accent-color: rgb(47, 248, 154);
 $accent-color2: rgb(28, 32, 241);
 $accent-color3: rgb(20, 235, 49);
@@ -42,6 +44,10 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+}
+
+code {
+  color: var(--font-color);
 }
 
 .post-title {

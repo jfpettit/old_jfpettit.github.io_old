@@ -5,6 +5,7 @@ description: My personal website.
 profile_url: "https://jfpettit.github.io"
 
 markdown: kramdown
+highlighter: rouge
 
 plugins:
   - jekyll-feed
