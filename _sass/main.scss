@@ -26,6 +26,7 @@ $yellow: #fddd7c;
   --fill-color: #fddd7c;
   --shape-background: rgb(224, 226, 230);
   --button-border: #1e2327;
+  --code-color: #554dff;
 }
 
 body.dark {
@@ -36,6 +37,7 @@ body.dark {
   --fill-color: #fddd7c;
   --shape-background: var(--fill-color);
   --button-border: #1f477e;
+  --code-color: var(--font-color);
 }
 
 body {
@@ -44,10 +46,9 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-}
-
-code {
-  color: var(--font-color);
+  a {
+    color: var(--font-color);
+  }
 }
 
 .post-title {
@@ -60,6 +61,10 @@ code {
 
 .post-read-time {
   color: var(--font-color);
+}
+
+code {
+  color: var(--code-color);
 }
 
 #dark-theme-toggle {
