@@ -8,7 +8,9 @@ featured-image: /assets/imgs/VS.gif
 
 **Well, really Long Live NeoVim, but that just isn't as catchy is it?**
 
-${toc}
+{: class="table-of-content"}
+* TOC
+{:toc}
 
 A quick disclaimer to the emacs folks; I'm not trying to pick a fight here. I just like vim and never really got into using emacs, so I'm writing from my perspective.
 
